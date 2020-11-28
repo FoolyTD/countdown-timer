@@ -3,7 +3,7 @@ const hoursEL = document.getElementById('hours');
 const minutesEL = document.getElementById('minutes');
 const secondsEL = document.getElementById('seconds');
 
-const departingDate = '26 Dec 2020';
+const departingDate = '1 Jan 2021';
 
 function formatTime(time) {
     if(time < 10) {
@@ -28,10 +28,7 @@ function countdown() {
     hoursEL.innerHTML = formatTime(hours);
     minutesEL.innerHTML = formatTime(minutes);
     secondsEL.innerHTML = formatTime(seconds);
-
-    console.log(days, hours, minutes, seconds);
 }
-
 
 //initial call
 countdown();
