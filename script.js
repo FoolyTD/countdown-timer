@@ -3,7 +3,7 @@ const hoursEL = document.getElementById('hours');
 const minutesEL = document.getElementById('minutes');
 const secondsEL = document.getElementById('seconds');
 
-const departingDate = '1 Jan 2021';
+const departingDate = '7 June 2021';
 
 function formatTime(time) {
     if(time < 10) {
